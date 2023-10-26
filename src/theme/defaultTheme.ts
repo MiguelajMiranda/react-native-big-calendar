@@ -5,9 +5,9 @@ export const defaultTheme: ThemeInterface = {
   palette: {
     primary: {
       main: 'rgb(66, 133, 244)',
-      contrastText: '#fff',
+      contrastText: '#EDF3FF',
     },
-    nowIndicator: 'red',
+    nowIndicator: '#8AB5FF',
     gray: {
       // 50: '#fafafa',
       100: '#f5f5f5',
@@ -23,9 +23,9 @@ export const defaultTheme: ThemeInterface = {
     moreLabel: '#000000',
   },
   eventCellOverlappings: [
-    { main: '#E26245', contrastText: '#fff' }, // orange
-    { main: '#4AC001', contrastText: '#fff' }, // green
-    { main: '#5934C7', contrastText: '#fff' }, // purple
+    { main: '#E26245', contrastText: '#EDF3FF' }, // orange
+    { main: '#4AC001', contrastText: '#EDF3FF' }, // green
+    { main: '#5934C7', contrastText: '#EDF3FF' }, // purple
   ],
   typography: {
     xs: {
