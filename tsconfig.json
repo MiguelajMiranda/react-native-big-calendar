@@ -41,6 +41,6 @@
     "module": "esnext",
     "outDir": "build"
   },
-  "include": ["/src/**/*.ts", "**/src/**/*.ts", "**/__tests__/**/*.ts",  "/src/**/*.d.ts"]
+  "include": ["/src/*", "/src/**", "/src/**/*", "/src/*/*", "/src/**/**", "/src/*/**", "/src/components/**", "/src/components/*" ]
 
 }
