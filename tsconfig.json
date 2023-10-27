@@ -47,7 +47,7 @@
     ".git",
     "**/__mocks__/*"
   ],
-  "include":[
-    "./src/**"
+  "include": [
+    "./src/**/*"  // ** está corretamente posicionado
   ]
 }
