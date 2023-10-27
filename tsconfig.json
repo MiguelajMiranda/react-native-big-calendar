@@ -39,9 +39,6 @@
     "module": "esnext",
     "outDir": "build"
   },
-  "include": [
-    "src/**/*",
-  ],
   "exclude": [
     "./example/**",
     "./rndemo/**",
