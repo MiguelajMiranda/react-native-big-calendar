@@ -48,5 +48,8 @@
     "**/__mocks__/*"
   ],
   "include": [
-    "src/**/*"  // Isso incluirá todos os arquivos .ts (ou .tsx) em src e seus subdiretórios
+    "src/**/*.ts",       // Inclui todos os arquivos .ts na pasta src e seus subdiretórios
+    "src/**/*.tsx",      // Inclui todos os arquivos .tsx na pasta src e seus subdiretórios
+    "src/index.ts"       // Inclui o arquivo index.ts da biblioteca
   ]
+}
