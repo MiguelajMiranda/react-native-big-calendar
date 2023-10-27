@@ -48,6 +48,5 @@
     "**/__mocks__/*"
   ],
   "include": [
-    "./src/**/*"  // ** está corretamente posicionado
+    "src/**/*"  // Isso incluirá todos os arquivos .ts (ou .tsx) em src e seus subdiretórios
   ]
-}
