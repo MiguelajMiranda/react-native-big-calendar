@@ -39,17 +39,9 @@
     "module": "esnext",
     "outDir": "build"
   },
-  "exclude": [
-    "./example/**",
-    "./rndemo/**",
-    "**/node_modules/**",
-    "**/vendor/**",
-    ".git",
-    "**/__mocks__/*"
-  ],
   "include": [
     "src/**/*.ts",       // Inclui todos os arquivos .ts na pasta src e seus subdiretórios
-    "src/components/Calendar.tsx",      // Inclui todos os arquivos .tsx na pasta src e seus subdiretórios
+    "src/**/*.tsx",      // Inclui todos os arquivos .tsx na pasta src e seus subdiretórios
     "src/index.ts"       // Inclui o arquivo index.ts da biblioteca
   ]
 }
