@@ -12,6 +12,8 @@
     "types": ["@types/node", "@types/jest"],
     "lib": [],
     "noEmit": false,
+    "typeRoots" : ["./typings"],
+
 
     /* Strict Type-Checking Options */
     "strict": true,
@@ -38,5 +40,7 @@
     "moduleResolution": "node",
     "module": "esnext",
     "outDir": "build"
-  }
+  },
+  "include": ["/src/**/*.ts", "**/src/**/*.ts", "**/__tests__/**/*.ts",  "/src/**/*.d.ts"]
+
 }
